@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Restaurant page to practice ESM and setting up a Webpack development environment",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafa-imam/Restaurant.git"
+  },
+  "keywords": [
+    "webpack",
+    "ESM"
+  ],
+  "author": "mostafa-imam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mostafa-imam/Restaurant/issues"
+  },
+  "homepage": "https://github.com/mostafa-imam/Restaurant#readme"
+}
