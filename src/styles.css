@@ -97,12 +97,12 @@ h6 {
     font-style: normal;
 }
 
-/* base styles */
 body {
-    font-family: "bn_hillmanregular";
+    font-family: "bn_hillmanregular", serif, sans-serif;
+    background-color: var(--color-4);
 }
 
-/* set up background image */
+/* style background image */
 
 body::before {
     content: '';
@@ -119,7 +119,7 @@ body::before {
     opacity: 0.96;
 }
 
-/* set up nav elements */
+/* style nav elements */
 
 .nav {
     display: flex;
@@ -144,4 +144,23 @@ body::before {
 .contact:hover {
     color: var(--color-1);
     cursor: pointer;
+}
+
+/* style home content section */
+#content {
+    text-align: center;
+    margin-top: var(--font-5);
+}
+
+#content h1:first-child {
+    color: white;
+    font-size: var(--font-3);
+    line-height: var(--font-1);
+}
+
+#content h1:last-child {
+    font-family: 'bn_baxter_scriptclean', serif, sans-serif;
+    color: var(--color-1);
+    font-size: var(--font-5);
+    line-height: var(--font-5);
 }
