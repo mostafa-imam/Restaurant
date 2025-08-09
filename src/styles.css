@@ -81,5 +81,21 @@ h6 {
 }
     
 /* fonts */
+@font-face {
+    font-family: 'bn_baxter_scriptclean';
+    src: url('./fonts/bnbaxterscript-clean-webfont.woff2') format('woff2'),
+         url('./fonts/bnbaxterscript-clean-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'bn_hillmanregular';
+    src: url('./fonts/bnhillman-webfont.woff2') format('woff2'),
+         url('./fonts/bnhillman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* base styles */
