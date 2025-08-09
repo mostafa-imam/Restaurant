@@ -1,0 +1,85 @@
+/* variables */
+:root {
+    --color-1: #DC143C;
+    --color-2: #111F1F;
+    --color-3: #793213;
+    --color-4: #040708;
+    --color-5: #1A0401;
+    --color-6: #BB7738;
+
+    --font-1: 1rem;
+    --font-2: 1.618rem;
+    --font-3: 2.618rem;
+    --font-4: 4.236rem;
+    --font-5: 6.854rem;
+    --font-small: 0.618rem;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+    
+/* fonts */
+
+/* base styles */
