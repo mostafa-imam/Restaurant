@@ -87,7 +87,6 @@ h6 {
          url('./fonts/bnbaxterscript-clean-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -96,6 +95,53 @@ h6 {
          url('./fonts/bnhillman-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 /* base styles */
+body {
+    font-family: "bn_hillmanregular";
+}
+
+/* set up background image */
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(./assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.96;
+}
+
+/* set up nav elements */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--font-1);
+    flex-wrap: wrap;
+
+    padding-top: var(--font-1);
+}
+
+.home,
+.menu,
+.contact {
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.home:hover,
+.menu:hover,
+.contact:hover {
+    color: var(--color-1);
+    cursor: pointer;
+}
