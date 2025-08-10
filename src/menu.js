@@ -33,7 +33,7 @@ export default function loadMenuPage() {
     content.classList.add("menuContent")
 
     const item1 = createMenuItem("item1", "textContainer1", menuItem1);
-    const item2 = createMenuItem("item2", "textContainer3", menuItem2);
+    const item2 = createMenuItem("item2", "textContainer2", menuItem2);
     const item3 = createMenuItem("item3", "textContainer3", menuItem3);
 
     content.appendChild(item1);
