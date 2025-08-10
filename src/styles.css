@@ -184,12 +184,6 @@ div.item {
   color: var(--color-7);
   text-align: left;
   padding-top: var(--font-2);
-
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
-  /* flex-direction: column; */
-  /* align-content: center; */
 }
 
 .textContainer1 > p,
@@ -207,4 +201,21 @@ div.item {
 .textContainer2 > h2,
 .textContainer3 > h2 {
   margin-bottom: calc(var(--font-1) / 1.6);
+}
+
+/* style contact page */
+.contactUsH2,
+.addressH2 {
+  color: var(--color-3);
+}
+
+.contactUsPhone,
+.contactUsEmail,
+.addressLocation {
+  color: white;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.contactUs {
+  margin-bottom: var(--font-4);
 }
