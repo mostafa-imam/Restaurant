@@ -219,3 +219,54 @@ div.item {
 .contactUs {
   margin-bottom: var(--font-4);
 }
+
+/* style for mobiles */
+@media only screen and (max-width: 620px) {
+  div.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .textContainer1,
+  .textContainer2,
+  .textContainer3 {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .textContainer1,
+  .textContainer2,
+  .textContainer3 {
+    margin-bottom: var(--font-4);
+  }
+  
+  body::before {
+      position: fixed;
+  }
+
+  img[alt="plate with food"] {
+    max-width: 100px;
+    height: auto;
+  }
+
+  div#content {
+    margin-top: var(--font-4);
+  }
+
+  #content h1:first-child {
+    color: var(--color-7);
+    font-size: var(--font-2);
+    line-height: var(--font-1);
+  }
+
+  #content h1:last-child {
+      font-family: 'bn_baxter_scriptclean', serif, sans-serif;
+      color: var(--color-1);
+      font-size: var(--font-4);
+      line-height: var(--font-4);
+  }
+
+}
