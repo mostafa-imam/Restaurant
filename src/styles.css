@@ -6,6 +6,7 @@
     --color-4: #040708;
     --color-5: #1A0401;
     --color-6: #BB7738;
+    --color-7: rgb(226, 225, 225);
 
     --font-1: 1rem;
     --font-2: 1.618rem;
@@ -116,7 +117,7 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
-    opacity: 0.96;
+    opacity: 0.5;
 }
 
 /* style nav elements */
@@ -136,7 +137,7 @@ body::before {
 .contact {
     background-color: transparent;
     border: 0;
-    color: white;
+    color: var(--color-7);
 }
 
 .home:hover,
@@ -153,7 +154,7 @@ body::before {
 }
 
 #content h1:first-child {
-    color: white;
+    color: var(--color-7);
     font-size: var(--font-3);
     line-height: var(--font-1);
 }
@@ -163,4 +164,47 @@ body::before {
     color: var(--color-1);
     font-size: var(--font-5);
     line-height: var(--font-5);
+}
+
+/* style menu page */
+img[alt="plate with food"] {
+  max-width: 200px;
+  height: auto;
+}
+
+div.item {
+  display: flex;
+  gap: 30px;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.textContainer1,
+.textContainer2,
+.textContainer3 {
+  color: var(--color-7);
+  text-align: left;
+  padding-top: var(--font-2);
+
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
+  /* align-content: center; */
+}
+
+.textContainer1 > p,
+.textContainer2 > p,
+.textContainer3 > p {
+  font-size: var(--font-1);
+}
+
+.menuContent {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.textContainer1 > h2,
+.textContainer2 > h2,
+.textContainer3 > h2 {
+  margin-bottom: calc(var(--font-1) / 1.6);
 }
